@@ -1,15 +1,21 @@
-**##Lab 09 Practice Report – GitLab CI/CD Pipeline Crash Course**
-**#1. Introduction**
+# **Lab 09 Practice Report – GitLab CI/CD Pipeline Crash Course**
+
+## **1. Introduction**
 Continuous Integration and Continuous Deployment, or CI/CD, automates application development, testing, and release.  This experiment uses Python (Flask), Docker, and GitLab CI/CD to show a safe, repeatable pipeline.
-2. Steps Performed – 16 Required Steps
-Step 1: Clone the GitLab CI/CD Tutorial Project
-What was done:
+
+## **2. Steps Performed – 16 Required Steps**
+
+### **Step 1: Clone the GitLab CI/CD Tutorial Project**
+#### **What was done:**
 Cloned the official GitLab crash course repository into my local development environment.
-Commands used:
+#### **Commands used:**
 git clone https://gitlab.com/nanuchi/gitlab-cicd-crash-course.git
+
 cd gitlab-cicd-crash-course
-Key decision: Used GitLab instead of GitHub to leverage GitLab's built-in CI/CD.
-________________________________________
+
+#### **Key decision:**
+Used GitLab instead of GitHub to leverage GitLab's built-in CI/CD.
+
 Step 2: Explore the Project Structure
 What was done:
 Inspected project files and folders to understand the structure and prepare for pipeline creation.
