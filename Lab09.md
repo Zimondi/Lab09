@@ -266,36 +266,42 @@ Manually destroyed the instance instead of stopping the Docker container only.
 ## **3. Screenshots**
 
 ### **1. CI/CD Pipeline Output**
+![CI-CD-pipeline-output](https://github.com/Zimondi/Lab09/blob/main/CI-CD-pipeline-output.png)
 #### **What it shows:**
 A screenshot of the completed GitLab pipeline showing all stages (test, build, deploy) marked as successful.
 #### **Why it’s relevant to CI/CD security:**
 It confirms the automation flow worked as expected with no manual interference, which reduces human error and enforces secure, repeatable deployments.
 
 ### **2. Running Containers**
+![Running-containers](https://github.com/Zimondi/Lab09/blob/main/Running-containers.png)
 #### **What it shows:**
 The output of docker ps from the deployment server, showing the demo-app container running and exposing port 5000.
 #### **Why it’s relevant to CI/CD security:**
 Validates that the app was deployed securely and is running in an isolated container environment, reducing risks tied to direct server-level changes.
 
 ### **3. GitLab Interface Views**
+![Gitlab-interface-views](https://github.com/Zimondi/Lab09/blob/main/Gitlab-interface-views.png)
 #### **What it shows:**
 Screenshots of the GitLab repository’s CI/CD > Pipelines tab, including .gitlab-ci.yml and project files.
 #### **Why it’s relevant to CI/CD security:**
 Shows the GitLab pipeline is properly configured and managed in version control, which ensures auditability and traceability of changes.
 
 ### **4. Browser Showing App**
+![Browser-showing-app](https://github.com/Zimondi/Lab09/blob/main/Browser-showing-app.png)
 #### **What it shows:**
 A web browser displaying the live app at http://128.203.114.140:5000
 #### **Why it’s relevant to CI/CD security:**
 Proves that the deployed app is accessible and the deployment was successful, completing the CI/CD loop from code to production securely.
 
 ### **5. Deployment Server Details**
+![Deployment-server-details](https://github.com/Zimondi/Lab09/blob/main/Deployment-server-details.png)
 #### **What it shows:**
 Azure Portal the VM’s status, IP address, and general information before deletion.
 #### **Why it’s relevant to CI/CD security:**
 Confirms that the deployment target was correctly provisioned and accessed, helping verify that only trusted environments were used.
 
 ### **6. Name and Date Screenshot**
+![Gitlab-interface-views](https://github.com/Zimondi/Lab09/blob/main/Gitlab-interface-views.png)
 #### **What it shows:**
 Browser shows my name in Gitlab and the task bar shows the current date and time.
 #### **Why it’s relevant to CI/CD security:**
